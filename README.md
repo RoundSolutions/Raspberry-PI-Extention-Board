@@ -15,6 +15,7 @@ Find out more: http://www.roundsolutions.com/en/raspberry-pi-cellular-adapter/
 The expansion card is simply plugged into the GPIOs of the Raspberry Pi and you can instantly communicate wirelessly with your device anywhere in the world and send and receive data in real-time. 
 
 How to start: http://www.roundsolutions.com/media/pdf/EXT-RPI-HAUPT_AarLogic%20Raspberry%20PI%20extension%20card%20ManualRev%2006.pdf
+
 Datasheet: http://www.roundsolutions.com/media/pdf/EXT-RPI-HAUPT_Datasheet_RaspberryPi_Extension_EN_v1.06.pdf
 
 More free downloads available at: http://www.roundsolutions.com/en/products/internet-of-things-devices/all-iot-devices/10644/aarlogic-raspberry-pi-extension-board-cellular-4gnb1m13g2ggps 
