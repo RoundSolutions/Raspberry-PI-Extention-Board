@@ -1,20 +1,9 @@
 # Raspberry-PI-Extention-Board
 
-This expansion card adds a 4G/3G/2G modem to the popular Raspberry Pi mini PC and makes it possible to communicate wirelessly via the cellular network.
-
-## More Features
-
-Furthermore, an optional GNSS module can be integrated for monitoring and positioning with the Raspberry Pi: you can choose between GPS, Glonass and Galileo. The expansion has a SIM card holder and is ready for immediate use. If necessary, you can add the following extra options:
--Integrated Sim Card
--IoT Cloud
-
-Find out more: http://www.roundsolutions.com/en/raspberry-pi-cellular-adapter/
+This expansion card adds a 4G/3G/2G modem to the popular Raspberry Pi mini PC and makes it possible to communicate wirelessly via the cellular network. The expansion card is simply plugged into the GPIOs of the Raspberry Pi and you can instantly communicate wirelessly with your device anywhere in the world and send and receive data in real-time. 
 
 ## Installation
 
-The expansion card is simply plugged into the GPIOs of the Raspberry Pi and you can instantly communicate wirelessly with your device anywhere in the world and send and receive data in real-time. 
-
-4	First Start
 Plug Raspberry Pi extension card on top the 40 Pina connector of the Raspberry Pi. Now your extension card will be powered by your Raspberry Pi and is connected via serial. Special drivers are not needed, because extension card is uses the standard tty drivers.
 We recommend using a 5V power supply equal or more than 2,5A, especially for Raspberry Pi 3, to avoid problem caused by power. 
 It is necessary to switch off or to reconfigure your Bluetooth port at Raspberry Pi 3, as it is using ttyAMA0. Several Forums and online tutorials are available online to show how this is done.
@@ -70,7 +59,13 @@ ttyUSB4
 If you connect your AarLogic Raspberry PI Extension Card also with an USB cable or swivel, you can use also ttyUSB3 as connection, which is recommended if you need faster connection for 4G and 3G modules.
 To send AT commands to module you can use any kind of terminal software like "minicom"
 
+## More Features
 
+Furthermore, an optional GNSS module can be integrated for monitoring and positioning with the Raspberry Pi: you can choose between GPS, Glonass and Galileo. The expansion has a SIM card holder and is ready for immediate use. If necessary, you can add the following extra options:
+-Integrated Sim Card
+-IoT Cloud
+
+Find out more: http://www.roundsolutions.com/en/raspberry-pi-cellular-adapter/
 
 How to start: http://www.roundsolutions.com/media/pdf/EXT-RPI-HAUPT_AarLogic%20Raspberry%20PI%20extension%20card%20ManualRev%2006.pdf
 
