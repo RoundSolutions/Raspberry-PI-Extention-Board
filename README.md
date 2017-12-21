@@ -22,11 +22,11 @@ One simple way to do it is by using the Python Shell. Here’s how it is done:
 	import time
 
 	def SendATCommand(arg):
-			port.write(arg)
-			time.sleep(0.2)
-			readbbytes = port.inWaiting()
-			ATAnswer = port.read(readbbytes)
-			print ATAnswer
+		port.write(arg)
+		time.sleep(0.2)
+		readbbytes = port.inWaiting()
+		ATAnswer = port.read(readbbytes)
+		print ATAnswer
 
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setwarnings(False)
