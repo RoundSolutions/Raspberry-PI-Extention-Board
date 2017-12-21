@@ -11,8 +11,8 @@ We recommend using a 5V power supply equal or more than 2,5A, especially for Ras
 It is necessary to switch off or to reconfigure your Bluetooth port at Raspberry Pi 3, as it is using ttyAMA0. Several Forums and online tutorials are available online to show how this is done.
 One possibility to switch off Bluetooth is to change config.txt with following entries:
 
-dtoverlay=pi3-disable-bt
-systemctl disable hciuart
+	dtoverlay=pi3-disable-bt
+	systemctl disable hciuart
 
 To power on extension card the GPIO20 pin on the Raspberry Pi should be switched to high. 
 One simple way to do it is by using the Python Shell. Here’s how it is done:
